@@ -1,7 +1,7 @@
 exports.home = function (req, res) {
   res.render('pages/home', {
-      title: 'Home page'
-    , message: 'This is the "home" action of "pages" controller'
+      title: 'Дорогие Ёбы'
+    , message: 'Это прорыв!!!Shintio рождается'
   })
 }
 exports.about=function (req, res) {
