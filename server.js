@@ -9,7 +9,7 @@ MongoClient.connect('mongodb://127.0.0.1:27017/Shintio', function(err, db) {
             next();
         };
         var app = require(__dirname + '/app/app')
-        , port = config.port;
+        , port = 3000;//config.port;
         app.listen(port, function () {
             console.log('Listening on port ', port)
         })
